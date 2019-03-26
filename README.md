@@ -13,7 +13,7 @@ mysql -u root -p
 ```
 Lalu Ketikan dibawah ini
 ```
-  mysql> create database siupdb 
+  mysql> create database siupdb; 
   mysql> create user 'siupdbuser'@'%' identified by 'siup123'; -- Creates the user
   mysql> grant all on siupdb.* to 'siupdbuser'@'%'; -- Gives all the privileges to the new user on the newly created database
 ```
